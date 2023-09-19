@@ -1,0 +1,43 @@
+/* image slide */
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background:red;
+}
+.slider-box{
+	width:95%;
+	height:70vh;
+	margin:30px auto;
+	position:relative;
+	overflow:hidden;
+	border:4px solid black;
+	border-radius:20px;
+}
+#slider{
+	width:100%;
+	display:inline-flex;
+	transition:0.7s;
+}
+#slider img{
+	width:100%;
+
+}
+.span-btn{
+	position:absolute;
+	left:50%;
+	bottom:20px;
+	transform:transparent(-50%);
+}
+.span-btn span{
+	display:inline-block;
+	width:15px;
+	height:15px;
+	border-radius:50px;
+	background:rgba(255,255,255,0.5);
+	cursor:pointer;
+}
+.active{
+	background: black !important;
+}
