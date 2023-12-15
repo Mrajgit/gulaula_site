@@ -3,12 +3,9 @@
 	margin:0;
 	padding:0;
 }
-body{
-	background:red;
-}
 .slider-box{
-	width:95%;
-	height:70vh;
+	width:95vh;
+	height:40vh;
 	margin:30px auto;
 	position:relative;
 	overflow:hidden;

@@ -1,0 +1,88 @@
+<html>
+
+<head>
+	<title>
+		fcs site
+	</title>
+	<style type="text/css">
+		#img {
+			background-image: url("images/Up.jpg");
+			background-color: #cdcbcb78;
+			height: 100%;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: 650px;
+			filter: blur(8px);
+			-webkit-filter: blur(8px);
+		}
+
+		#text {
+			background-color: transparent;
+			font-weight: bold;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			z-index: 2;
+			width: 80%;
+			padding: 20px;
+			text-align: center;
+		}
+		#loginId{
+			margin: 6px;
+		}
+		#fcs_login {
+			border: 2px solid red;
+			border-radius: 6px;
+			padding: 6px;
+			background-color: black;
+			text-align: center;
+			color: white;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="img"></div>
+	<div id="text">
+		<form align="center">
+			<header align="right">language
+				<select>
+					<option value="हिंदी">हिंदी</option>
+					<option value="english">english</option>
+				</select>
+			</header>
+			<div>
+				<font size="+3">
+					Food and Civil Supplier Department,Uttar Pradesh
+				</font>
+			</div>
+			<h1>
+				खाघ एवं रसद विभाग,उत्तर प्रदेश
+			</h1>
+			<font color="orange" size="+3">
+				<h3>
+					FPS POS APPLICATION
+				</h3>
+			</font>
+			<div>
+				<font face="times new roman" size="+5" color="green">
+					Login
+				</font>
+			</div>
+			<div id="loginId">
+				<input type="number" placeholder="Login Id">
+			</div>
+			<div id="loginId">
+				<input type="password" placeholder="Password">
+			</div>
+			<div>
+				<a href="#" target="_blank">
+					<button id="fcs_login">Login</button>
+				</a>
+			</div>
+		</form>
+	</div>
+</body>
+
+</html>

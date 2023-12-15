@@ -1,0 +1,48 @@
+/* header */
+#header{
+    margin-left:300px;
+}
+#header a{
+    margin: 7px;
+    text-align: center;
+    font-size:8px;
+}
+/* Navigation */
+.navbar {
+    flex-direction: column;
+}
+.navbar::before {
+    background-color: #bd9393;
+}
+.navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+#home p{
+    font-size: 20px;
+}
+#home h1{
+    font-size: 30px;
+}
+.btn {
+	background-color: rgb(51, 235, 217);
+    color: black;
+    border-block-color: red;
+    font-size: 15px;
+    font-family: fangsong;
+
+}
+.table {
+	margin-top: 2px;
+}
+#about{
+	font-size: 20px;
+	margin-left: 300px;
+	margin-top: -235px;
+}
+.slider-box{
+	width:40vh;
+	height:20vh;
+}
