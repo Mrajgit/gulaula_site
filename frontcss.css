@@ -12,7 +12,25 @@ html {
 body {
 	background-color: rgb(171 215 174 / 95%);
 }
-
+#header{
+	display:flex;
+	margin-left:1000px;
+}
+#header h1{
+	margin-left:20px;
+	font-size:22px;
+	color:#d0cdd3;
+}
+#header a{
+	color:white;
+	background-color:black;
+	border-radius:7px;
+	margin:7px;
+	padding:3px;
+	/* margin-left:360px; */
+	font-size:8px;
+	text-decoration:none;
+}
 /* navigation bar logo */
 #logo {
 	margin: 8px, 5px;
@@ -137,7 +155,7 @@ body {
 }
 
 #links ul li:hover a {
-	background-color: rgb(50, 117, 241)17, 0, 255);
+	background-color: rgb(50, 117, 241)17, 0, 255;
 	border-radius: 10px;
 }
 
